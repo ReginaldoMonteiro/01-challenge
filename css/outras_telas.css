@@ -1,0 +1,102 @@
+@media screen and (min-width:768px) and (max-width:992px){
+
+    body{
+        padding: 25px;
+        margin: auto;
+    }
+
+    .hiring{
+    width: 150px; 
+    height: 40px;    
+    }
+
+    .hiring > p{
+        font-size: 1.6em;
+    }
+
+    .logoImg {        
+    width: 165px;    
+    }
+   
+    .logotipo{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        }
+
+    #burguer{       
+        transform: translateY(-20px);
+        font-size: 3em;
+        font-weight: bold;
+        display: inline-block;
+    }
+    .imagens > img{
+        height: 550px;
+               
+    }
+    
+    .shapes{
+        transform: translateY(-40px);
+    }
+
+    article{
+        margin-top:520px;
+    }
+    article > h1{
+        font-size: 4em;
+    }
+    article > p{
+        font-size: 1.3em;
+    }
+
+    .botoes{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .inputEmail{
+        height: 80px;
+        font-size: 1.4em;
+    }
+    .waitlistButton{
+        height: 80px;
+        width: 180px;
+        margin-left: 20px;
+        
+    }
+    .joinB{
+        font-size: 1.6em;
+    }
+
+    .checkmark{
+        margin-top: 30px;
+    }
+
+    .checkmark > img{
+        height: 33px;
+    }
+
+    .miniFrase{
+        font-size: 1.4em;
+    }
+
+    .redesLista{
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+   footer{
+        transform: translate(480px, -70px);
+    }
+    .textoFooter > p{
+        font-size: 1.4em;
+    }
+    .avatar{
+    height: 60px;
+    }
+
+
+}
+
+   
+
