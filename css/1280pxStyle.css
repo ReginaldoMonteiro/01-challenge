@@ -1,0 +1,233 @@
+
+*{margin: 0px; padding: 0px; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+
+body{
+    
+    background-color:#f9f4e8;
+    margin: auto;
+    max-width: 1280px;
+}
+
+/*header*/
+header{
+margin-top: 40px;
+}
+
+.logoHiring{
+    display:flex;
+    gap: 15px;    
+}
+
+div.hiring{
+    
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    opacity: 0.6;
+    background-image: linear-gradient(to right, rgb(216, 216, 82), red);
+}
+div.hiringFont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:700;
+    color: white;
+}
+
+/*links*/
+a{
+    text-decoration: none;
+    color: rgba(94, 94, 94, 0.705);
+    font-weight: 600;
+    cursor: pointer;
+}
+a:hover{
+    text-shadow: rgba(0, 0, 0, 0.123);
+}
+
+/*menu*/
+
+
+div.planos > ul {
+    display: flex;
+    transform: translate(500px, -25px);
+    gap: 30px;       
+}
+
+div.botoesTop{
+    display: flex;
+    align-items: center;
+    transform: translate(1110px, -50px);
+    gap: 15px;
+}
+
+ ul{
+    list-style-type: none;
+    text-decoration: none;
+} 
+
+/*botoes top*/
+.signTop{
+    color: rgba(94, 94, 94, 0.705);
+ font-weight: 600;
+
+ cursor: pointer;
+ 
+}
+.signTop:hover{
+    text-shadow: rgba(0, 0, 0, 0.123);
+}
+
+.button{
+background-color: #4977ea;
+color: white;
+font-weight: 600;
+border: none;
+border-radius: 5px;
+width: 100px;
+height: 40px;
+
+cursor: pointer;
+transition: 0.2s;
+}
+
+.button:hover{
+    background-color: #8977ea;
+    text-shadow: rgba(0, 0, 0, 0.123);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.123);  
+}
+
+/* logotipo com imagens */
+
+ div.logo-imagens-e-article .logo-imagens {
+    
+ 
+display: flex;
+justify-content:space-between ;
+align-content: center;
+flex-direction: row-reverse;
+
+
+}
+
+div.logo-imagens{
+   margin-top: 50px;
+}
+
+img.imagem{
+    max-width: 28%;    
+    position: absolute;
+}
+
+img.imagem-face{
+    max-width: 20%;
+    z-index: 4;
+}
+
+img.imagem-roxa{
+    transform: rotate(-17deg);
+    z-index: 3;
+}
+
+img.imagem-rosa{
+    transform: rotate(-34deg);
+    z-index: 2;
+}
+
+img.imagem-azul{
+    transform: rotate(-48deg);
+    z-index: 1;
+}
+
+/* texto principal */
+
+article{
+    margin-top: 80px ;
+    max-width: 45%; 
+}
+
+div.texto-principal h1{
+font-size: 3rem;
+}
+
+div.texto-principal p{
+    font-size: 1.rem;
+    line-height:35px;
+    margin-top: 20px;
+    color: rgba(94, 94, 94, 0.705);
+    font-weight: 600;
+}
+
+/* botoes bottom */
+
+div.botoes-inferiores{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.input-email{
+    width: 370px;
+    height: 60px;
+    padding-left: 20px;
+    font-weight:600;
+    color: rgba(94, 94, 94, 0.705);
+    letter-spacing: 1px;  
+    border: none;
+    border-radius:5px;  
+}
+.input-email:hover{
+    text-shadow: rgba(0, 0, 0, 0.123);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.123);     
+}
+
+input.button-bottom{
+    width: 160px;
+    height: 60px;   
+}
+
+/* checkmark e texto spam */
+div.checkmark{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+.no-spam{
+    font-weight: 600;
+    color: rgba(94, 94, 94, 0.705);
+}
+
+/* redes sociais */
+div.redes-e-textos{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+/* avatar e texto talk to me */
+
+div.avatar-texto{
+    display: flex;
+    gap: 15px;
+}
+
+img.avatar{
+    border-radius: 50%;
+    height: 40px;
+}
+
+p.strong-talk{
+    font-weight: bold;
+}
+
+
+
+
+
